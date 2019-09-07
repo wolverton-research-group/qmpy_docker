@@ -22,7 +22,7 @@ RUN conda create -n oqmd -y
 RUN bash -c 'source activate oqmd && conda install --yes --quiet python=2.7 atlas numpy scipy matplotlib=2.2.3'
 RUN bash -c 'source activate oqmd && conda install --yes --quiet scikit-learn lxml cython'
 RUN bash -c 'source activate oqmd && pip install -r requirements.txt'
-RUN git clone -b api_oqmd_v1 https://github.com/mohanliu/qmpy.git 
+RUN git clone -b master https://github.com/wolverton-research-group/qmpy.git
 RUN echo '/root/qmpy' >> '/root/miniconda2/envs/oqmd/lib/python2.7/site-packages/qmpy.pth'
 
 RUN mkdir /workspace
