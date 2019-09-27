@@ -19,3 +19,13 @@ Link to [Docker Hub](https://hub.docker.com/r/oqmduser/qmpy_live).
     - `docker run -it --rm --env-file <env_file> -v <some_local_path>:/workspace oqmduser/qmpy_live`
   - Overwrite entrypoint 
     - `docker run -it --rm --env-file <env_file> --entrypoint "/bin/bash" oqmduser/qmpy_live`
+
+## Format of Docker environment file
+```
+# Database Info
+qmdbhost=<your_qmdb_host>
+qmdbname=<your_qmdb_name>
+qmdbpassword=<your_qmdb_password>
+qmdbport=<your_qmdb_port>
+qmdbuser=<your_qmdb_user>
+```
