@@ -1,4 +1,4 @@
-# qmpy_docker
+# qmpy_docker [ ![Build Status](https://travis-ci.org/wolverton-research-group/qmpy_docker.svg?branch=master) ](https://travis-ci.org/wolverton-research-group/qmpy_docker)
 
 A docker image for qmpy (Internal Usage Only).
 
