@@ -1,0 +1,9 @@
+services:
+  - docker
+
+install:
+  - docker build -t test_qmpy_docker .
+  - docker run -d test_qmpy_docker
+
+script:
+  - docker ps | grep -q test_qmpy_docker
