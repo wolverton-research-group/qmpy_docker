@@ -1,8 +1,6 @@
 # qmpy_docker [ ![Build Status](https://travis-ci.org/wolverton-research-group/qmpy_docker.svg?branch=master) ](https://travis-ci.org/wolverton-research-group/qmpy_docker)
 
-A docker image for qmpy (Internal Usage Only).
-
-The container will connect to the read-only view of QMDB.
+A docker image for the latest `qmpy`. This container is used to connected to an active QMDB (version > v1.3.0).
 
 Link to [Docker Hub](https://hub.docker.com/r/oqmduser/qmpy_live).
 
