@@ -1,9 +1,7 @@
 set hlsearch
-set ruler
 set nocompatible
 set smartindent
 set autoindent
-set incsearch
 set showmatch
 set expandtab
 set tabstop=4
