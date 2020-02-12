@@ -3,7 +3,7 @@ ase==3.11.0
 bokeh==0.12.15
 Cython==0.20.1
 dateutils==0.6.6
-Django==1.8.18
+Django==1.11.28
 django-crispy-forms
 django-extensions==1.2.5
 django-filter==1.0.4
