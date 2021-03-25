@@ -36,7 +36,7 @@ pyparsing==2.4.2
 python-dateutil==2.2
 python-memcached==1.53
 pytz==2016.7
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.21.0
 scipy==0.13.3
 six==1.10.0
